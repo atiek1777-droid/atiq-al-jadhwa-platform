@@ -28,14 +28,14 @@ const PROVIDERS: ProviderConfig[] = [
     endpoint: "https://api.groq.com/openai/v1/chat/completions",
     apiKeyEnv: "GROQ_API_KEY",
     modelEnv: "GROQ_MODEL",
-    defaultModel: "qwen/qwen3.6-27b",
+    defaultModel: "llama-3.3-70b-versatile",
   },
   {
     name: "openrouter",
     endpoint: "https://openrouter.ai/api/v1/chat/completions",
     apiKeyEnv: "OPENROUTER_API_KEY",
     modelEnv: "OPENROUTER_MODEL",
-    defaultModel: "qwen/qwen3.6-27b",
+    defaultModel: "meta-llama/llama-3.3-70b-instruct",
   },
 ];
 
