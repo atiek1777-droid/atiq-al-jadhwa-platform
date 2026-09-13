@@ -49,7 +49,7 @@ export default function AdminDashboardPage() {
   return (
     <div>
       <h1 className="font-arabic-display text-2xl">Dashboard</h1>
-      <p className="mt-1 text-sm text-muted">Overview of the platform's content and activity.</p>
+      <p className="mt-1 text-sm text-muted">Overview of the platform\'apos;s content and activity.</p>
 
       <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-5">
         {cards.map((c) => (
